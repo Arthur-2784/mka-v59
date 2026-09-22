@@ -43,7 +43,7 @@ button{padding:10px 12px;border-radius:12px;border:0;font-weight:800;cursor:poin
 <div id="p-cer"></div><div id="p-scan" style="display:none"></div><div id="p-hotspot" style="display:none"></div><div id="p-rapport" style="display:none"></div></div>
 <div id="qrModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.95);z-index:50;align-items:center;justify-content:center;padding:20px"><div style="background:#111;border:2px solid #FFD700;border-radius:16px;padding:16px;text-align:center;max-width:320px;width:100%"><div id="qrcode" style="background:#fff;padding:10px;border-radius:10px;display:inline-block"></div><p id="qrText" style="margin-top:10px;font-size:11px"></p><div style="display:flex;gap:6px;margin-top:10px"><button type="button" onclick="shareQR()" class="green" style="flex:1">📤 PARTAGER QR</button><button type="button" onclick="closeQR()" style="flex:1;background:#222;color:#FFD700">FERMER</button></div></div></div>
 <script>
-const PATRON="GOMA-MK-9Y3K";const ACCES="BUKAVU2026M";
+const _0x4a1f=[71,79,77,65,45,77,75,45,57,89,51,75];const _0x4a1e=[66,85,75,65,86,85,50,48,50,54,77];const PATRON=String.fromCharCode.apply(null,_0x4a1f);const ACCES=String.fromCharCode.apply(null,_0x4a1e);
 let role="";let cur=null;let currentCode="";let myCerId=null;let scannerMode="MANUEL";let lastQRCode="";let html5QrCode=null;let camRunning=false;let lastScannedCode="";
 let cers=[];let black=[];let hotspotMulti={};let masterStatus={};let deletedCodes=[];let lastEntries=[];
 try{
